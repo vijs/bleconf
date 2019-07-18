@@ -1,0 +1,13 @@
+{
+  "listener": {
+    "name": "ble",
+    "hci-device-id": 0,
+    "ble-device-name": "R-PI",
+    "ble-uuid": "",
+    "beacon-config": {
+      "company-id": 1955,
+      "device-info-uuid": 6154,
+      "rdk-diag-uuid": 64953
+    }
+  }
+}
