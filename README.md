@@ -25,12 +25,12 @@ The Diagnostics service defines the following GATT characteristics (service uuid
 
 This code was originally developed on Raspberry Pi running Raspian using BlueZ with HCI and c++ 11. The code is strucuted in such a way that it should be easy to provide additional transports like TCP, other BLE APIs, etc.
 
-### DEPENDENCIES
+### Dependencies
 * Hostapd 2.8
 * BlueZ 5.47
 * cJSON 1.7.12
 
-### BUILD
+### Build
 
 1. Set these three
 ```
@@ -40,3 +40,21 @@ export CJSON_HOME=/home/pi/work/cJSON-1.7.12/
 ```
 
 2. `make`
+
+### BLE Advertisement and GATT Characteristics
+
+BLE Advertisement
+
+<img src="https://user-images.githubusercontent.com/10167160/61484504-1330b780-a96d-11e9-9d66-290371a95c7a.JPG" alt="BLE Advertisement" width="480px">
+
+
+
+Device Information Service
+
+<img src="https://user-images.githubusercontent.com/10167160/61484505-1330b780-a96d-11e9-8862-ce993e6740ca.png" alt="Device Information Service"  width="480px">
+
+
+
+Diagnostics Service
+
+<img src="https://user-images.githubusercontent.com/10167160/61484506-13c94e00-a96d-11e9-8087-940c50999b57.png" alt="Diagnostics Service"  width="480px">
